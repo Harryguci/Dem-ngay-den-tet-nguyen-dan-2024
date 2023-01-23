@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <form action="" class="align-items-center">
+                <form action="" onsubmit="submitHandle(event)" class="align-items-center">
                     <label class="fs-5">Nếu mỗi ngày bạn tiết kiệm: </label>
                     <input type="number" name="money" class="form-control p-0" value="50000" onchange="handleMoney(e)">
                 </form>
@@ -79,6 +79,11 @@
             </div>
         </div>
     </main>
+    <script>
+        function submitHandle(event) {
+            event.preventDefault();
+        }
+    </script>
 
     <div class="firework" id="firework1">
         <div class="explosion"></div>
@@ -251,6 +256,8 @@
             current.innerHTML = "money input is NULL";
         }
     }
+
+    document.querySelector('input[name="money"]').addEventListener("keyup", handleMoney)
 
 </script>
 

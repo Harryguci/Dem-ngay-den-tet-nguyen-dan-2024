@@ -27,6 +27,7 @@
 </head>
 
 <body>
+    <!-- <canvas id=c></canvas> -->
     <main class="container-fluid d-flex justify-content-center align-items-center vh-100">
         <div class="wrap">
             <div class="row">
@@ -78,6 +79,137 @@
             </div>
         </div>
     </main>
+
+    <div class="firework" id="firework1">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+    <div class="firework" id="firework2">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+    <div class="firework" id="firework3">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+    <div class="firework" id="firework4">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+
+    <div class="firework" id="firework5">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+
+    <div class="firework" id="firework6">
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+        <div class="explosion"></div>
+    </div>
+
+
+    <div id="onloadscreen">
+        <div class="feliz">Happy new year</div>
+        <div class="ano_novo">
+            <span>202</span>
+            <span class="seis" style="transform: translate(20px,0)">3</span>
+            <span class="sete" style="transform: translate(20px,0)">4</span>
+            <div class="balao"></div>
+        </div>
+        <div class="fogos">
+            <div class="f1">
+                <span><i></i></span>
+                <span><i></i></span>
+                <span><i></i></span>
+            </div>
+            <div class="f2">
+                <span><i></i></span>
+                <span><i></i></span>
+                <span><i></i></span>
+            </div>
+            <div class="f3">
+                <span><i></i></span>
+                <span><i></i></span>
+                <span><i></i></span>
+            </div>
+            <div class="f4">
+                <span><i></i></span>
+                <span><i></i></span>
+                <span><i></i></span>
+            </div>
+        </div>
+        <!-- <a href="https://twitter.com/cecelabomfim" class="author">Marcela Bomfim</a> -->
+    </div>
+    <script>
+        setTimeout(() => {
+            document.getElementById('onloadscreen').style.opacity = '0';
+            document.getElementById('onloadscreen').style.transform = 'scale(5)';
+        }, 10000);
+
+        setTimeout(() => {
+            document.getElementById('onloadscreen').style.display = 'none';
+        }, 13000);
+    </script>
 </body>
 
 <script>

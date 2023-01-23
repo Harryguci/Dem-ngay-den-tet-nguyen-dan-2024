@@ -1,0 +1,74 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+  color: white;
+  background: rgb(255, 50, 50);
+}
+.heading {
+  display: flex;
+}
+.heading * {
+  width: fit-content;
+  display: block;
+  font-weight: bold;
+  margin: auto 0;
+  color: white;
+}
+.heading h1 {
+  font-size: 3rem;
+}
+
+.wrap {
+  width: 90vw;
+  max-width: 600px;
+  /* background: rgb(245, 245, 245); */
+  margin: 0 auto;
+}
+
+.item {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 1rem;
+}
+
+.item h3 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.item span {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-size: 1.2rem;
+}
+
+input[name="money"] {
+  padding: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  border-bottom: 1px solid #ffffff;
+}
+
+input[name="money"]:focus {
+  color: white;
+  outline: none !important;
+  border: none !important;
+  border-bottom: 1px solid #ffffff;
+  background: none;
+}
+
+.result {
+  display: block;
+  border-bottom: 1px solid #ffffff;
+}
